@@ -7,23 +7,108 @@
             padding: 0;
             margin: 0;
         }
-        
+/* /      
         html {
             scroll-behavior: smooth;
             padding: 0;
             margin: 0;
         }
+ 
+         h2{height: 50vh;
+            padding-top: 15%; 
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:rgb(5, 129, 117);
+
+        } */ 
+
+   
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 100vh;
+      }
+    }
+    
+    .top-nav-collapse {
+      background-color: #78909c !important;
+    }
+    
+    .navbar:not(.top-nav-collapse) {
+        background-color: black;
+        color:white
+      /* background: transparent !important; */
+    }
+    
+    @media (max-width: 991px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #78909c !important;
+      }
+    }
+    
+    h1 {
+      letter-spacing: 8px;
+    }
+    
+    h5 {
+      letter-spacing: 3px;
+    }
+    
+    .hr-light {
+      border-top: 3px solid #fff;
+      width: 80px;
+    }
+
+    main{ padding-top: 10%; 
+        background-blend-mode: lighten;
+        background-image: url(./images/black-and-white\ background.jpg);
+        font-family:Georgia, 'Times New Roman', Times, serif;
+         font-size: 80px;
+         font-weight: bolder;
+         color:turquoise;
+         
+
+
+        }
+        .img-fluid {size: 12px;
+             
+        }
+
+       /* #title{
+               
+            align-content: center; */
+            /* font-family: Alfa Slab One; */
+            /* color: black; */
+            /* -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: blue; */
+        /* } */ 
+
+
+       #navbar { color:white;
+
+        }
         
         #home {
             height: 100vh;
+            font-size: 100px;
             flex-direction: column;
-            background-color: aquamarine;
+            background-image: url(./images/black-and-white\ background.jpg);
+            background-size:cover;
+            color: turquoise;
+            align-content:center;
+
+            
         }
         
+
         #about {
             height: 100vh;
             color: black;
-            background-color: blueviolet;
+            background-color: grey;
         }
         
         #contact {
@@ -35,6 +120,7 @@
         #projects {
             height: 100vh;
             background-color: white;
+            column-count: 3;
         }
         
         #resume {
